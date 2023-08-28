@@ -33,7 +33,7 @@ ul>li>a{
     align-items: center;
     justify-content: space-between;
     background-color: #f4f4f4;
-  padding: 40px;
+    padding: 40px;
    
     
 }
@@ -63,6 +63,164 @@ ul>li>a{
 }
 .second-item>img{
 max-width: 100%;
-  height: auto;
+height: auto;
   border-radius: 5px;
 }
+.services{
+    padding: 40px;
+}
+
+.services>h1{
+    font-size:3.5rem ;
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    font-weight: bold;
+
+}
+.services-container{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    margin-top: 60px;
+    margin-bottom: 60px;
+}
+.services>p{
+    font-size: 1.5rem;
+    text-align: center;
+    color: gray;
+    
+}
+.services-card{
+    height: 170px;
+    text-align: center;
+    
+}
+.services-card>h1{
+    margin-bottom: 20px;
+}
+.services-card>p{
+    color: gray;
+}
+.fa-solid{
+    font-size:100px ;
+    color: skyblue;
+    margin-bottom: 20px;
+}
+/* this is anage section */
+.enage-section{
+    padding: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 60px;
+
+}
+.enage-1{
+    width: 50%;
+    padding: 20px;
+}
+.enage-1>img{
+    max-width: 100%;
+    height: auto;
+    border-radius: 5px;
+}
+.enage-1>h5{
+    margin-bottom: 20px;
+    font-size: 1.5rem;
+    color: gray;
+
+}
+.enage-1>h1{
+    margin-bottom: 20px;
+    font-size: 3rem;
+    color: #353F4F;
+    font-weight: bold;
+}
+.enage-1>p{
+    margin-bottom:20px;
+    font-size: 1.5rem;
+    color: gray;
+}
+.enage-1>h3{
+    margin-bottom: 20px;
+    font-size: 2rem;
+}
+/* this is anage section */
+/* this is start marketing design css */
+.marketing-box{
+    max-width: 650px;
+    padding: 40px;
+    background-color: white; /* Set the background color of the element */
+    box-shadow: 0px 4px 6px gray; /* Apply the gray box shadow */
+    border-radius: 10px;
+    text-align: center;
+}
+.marketing-box>.market-content-1{
+    margin-bottom: 40px;
+}
+.marketing-box>.market-content-2{
+    margin-top: 40px;
+}
+.marketing-box>div>p{
+    color: gray;
+    font-size: 1.5rem;
+    margin: 20px 20px;
+}
+/* this is start marketing design css */
+@media (max-width: 767px) {
+    /* this is hero section */
+    .hero-section{
+        flex-direction: column;
+
+    }
+    .first-item>h1{
+        font-size: 2.5rem;
+        margin-bottom: 40px;
+    }
+    .first-item>p {
+        font-size: 1.5rem;
+    }
+    .second-item{
+        width: 100%;
+        margin-top: 20px;
+    }
+    .first-item{
+        width: 100%;
+    }
+    /* this is services section */
+    .services>h1{
+        font-size:1.5rem ;
+    }
+    .services > p {
+        font-size: 1rem;
+    }
+    .services-container{
+        display: grid;
+        grid-template-columns: repeat(1,1fr);  
+    }
+    .fa-solid{
+        font-size:100px;
+        color: goldenrod;
+        margin-bottom: 20px;
+    }
+    .services-card{
+        height:250px;  
+    }
+/* this is engage section */
+    
+
+}
+
+@media (min-width: 1024px) {
+    body {
+       
+        background-color: lightgreen;
+    }
+}
+@media (min-width: 768px) and (max-width: 1023px) {
+    body {
+        
+        background-color: lightblue;
+    }
+}
+/* this is start marketing design css */
